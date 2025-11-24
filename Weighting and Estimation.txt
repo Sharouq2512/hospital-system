@@ -1,0 +1,106 @@
+Weighting and Estimation (Hospital Management System)
+1. Story Point Estimation Techniques
+
+In Agile development, story points are used to estimate the effort required to complete a user story. Instead of estimating in hours, story points measure work based on complexity, uncertainty, and required time as a combined value. For a Hospital Management System, this helps the team understand how large or complex tasks are—such as integrating lab modules, building appointment scheduling interfaces, or adding medical record management features.
+
+Story points are typically relative, meaning a story with 8 points should take roughly twice the effort of a story with 4 points. This makes estimation faster, reduces pressure, and helps teams plan realistically, especially when requirements may evolve as hospital processes become clearer. Story points are often assigned by the development team during sprint planning or backlog refinement sessions.
+
+Common values used in story point scales include:
+
+Fibonacci sequence (1, 2, 3, 5, 8, 13, 21…)
+
+Linear numbers (1–10)
+
+T-shirt sizes (S, M, L, XL)
+
+The goal is not perfect accuracy, but a shared team understanding of the expected work.
+
+2. Estimation Methods (Planning Poker, T-Shirt Sizing, etc.)
+a. Planning Poker
+
+Planning Poker is one of the most popular and collaborative estimation methods. The team discusses a user story, each member privately selects a story point value, and everyone reveals their choice simultaneously. If members disagree, they discuss their reasoning and vote again. This process continues until the team reaches consensus.
+
+For example, estimating a story like “As a doctor, I want to view patient lab results immediately after upload” might result in different opinions based on experience with database complexity or integration logic. Planning Poker encourages conversation, knowledge sharing, and alignment within the team.
+
+b. T-Shirt Sizing
+
+T-shirt sizing estimates story size using categories such as:
+
+Extra Small (XS)
+
+Small (S)
+
+Medium (M)
+
+Large (L)
+
+Extra Large (XL)
+
+This technique is helpful early in a project when detailed information is not yet available. For instance, building a patient registration screen may be classified as a Small task, while integrating with hospital laboratory devices might be classified as a Large or Extra Large task. Once sizes are agreed upon, they can be later mapped to numeric story points.
+
+c. Bucket System
+
+This method involves placing user stories into “buckets” representing different sizes without needing lengthy discussion for each one. It is useful when there are many stories to estimate at once, such as at the start of a hospital system project. The team quickly sorts stories into buckets based on perceived complexity and later refines individual items where needed.
+
+d. Affinity Estimation
+
+Affinity estimation groups similar stories together based on complexity. The team arranges stories from simplest to most complex and assigns scale values afterward. This technique is fast and effective for large product backlogs.
+
+3. Weighting User Stories by Complexity, Priority, and Business Value
+Complexity
+
+Complexity considers how technically difficult or risky a story is to implement. In a Hospital Management System, displaying patient history may be less complex than integrating real-time data feeds from external laboratory devices. Complexity may depend on questions such as:
+
+Does the feature require integration with external systems?
+
+How many database entities are affected?
+
+Are new business rules needed?
+
+Is the technical solution well-understood or uncertain?
+
+Stories with higher complexity usually receive more story points.
+
+Priority
+
+Priority determines how soon a story should be completed. This decision is usually made by the product owner in collaboration with hospital stakeholders such as doctors, nurses, department heads, and administrators. Priority reflects the urgency and importance of a feature. For example:
+
+Emergency patient registration may be a top priority,
+
+While cosmetic interface improvements may be lower priority.
+
+Prioritization helps ensure that essential features are delivered early, supporting hospital operations sooner.
+
+Business Value
+
+Business value measures how much benefit a user story delivers to the organization. High business value stories in a hospital system are those that:
+
+Improve patient care,
+
+Reduce waiting times,
+
+Increase revenue (e.g., accurate billing),
+
+Reduce manual work or paperwork,
+
+Enhance compliance with medical regulations.
+
+A story like “Doctors can access lab results instantly” has high business value because it speeds diagnosis and improves patient outcomes. Business value ranking helps the team sequence work based on return on investment, not just effort.
+
+Combining Weight Factors
+
+Teams may weigh user stories using a combination of:
+
+Story points (effort),
+
+Business value,
+
+Priority,
+
+Risk.
+
+This enables structured decision-making when selecting which stories enter a sprint. For example, a medium-effort story with high business value and high urgency may be scheduled before a low-value story that is easy to complete. Some organizations use formulas or scoring tools to automate this, while others rely on discussion and judgment.
+
+Conclusion
+
+Weighting and estimation in Agile development ensure that work is planned realistically and that the highest-value features are developed first. By using techniques such as Planning Poker, T-shirt sizing, and other estimation methods, teams can assign meaningful story points based on complexity, uncertainty, and effort. Evaluating each user story through the lens of priority, business value, and technical complexity ensures that a Hospital Management System delivers the most benefit to patients, doctors, and hospital operations in the shortest possible time.
