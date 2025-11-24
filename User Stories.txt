@@ -1,0 +1,109 @@
+User Stories (Hospital Management System)
+1. Definition of User Stories and Their Format
+
+User stories are short, simple descriptions of a system feature written from the user’s point of view. They explain who the user is, what they want, and why they need it. User stories are widely used in Agile development to ensure that requirements remain focused on real user needs and business value.
+
+The standard user story format is:
+
+“As a (type of user), I want (functionality) so that (reason or benefit).”
+
+Example:
+As a doctor, I want to see patient lab results so that I can make informed treatment decisions.
+
+2. How to Write Effective User Stories
+
+Effective user stories should:
+
+Be written in simple and clear language.
+
+Focus on user goals, not system details.
+
+Be small enough to complete within one sprint.
+
+Provide business value or improve user experience.
+
+Be testable and supported by acceptance criteria.
+
+Avoid technical jargon the user may not understand.
+
+Represent real needs of hospital users such as doctors, nurses, administrators, pharmacists, and patients.
+
+A good guideline for high-quality stories is the INVEST model, meaning stories should be:
+
+Independent
+
+Negotiable
+
+Valuable
+
+Estimable
+
+Small
+
+Testable
+
+3. Acceptance Criteria and Their Importance
+
+Acceptance criteria are the specific conditions or rules that must be met for a user story to be considered complete. They describe:
+
+What must happen
+
+How the feature should behave
+
+When the story can be accepted by the product owner
+
+Acceptance criteria are important because they:
+
+Remove ambiguity and misunderstandings.
+
+Ensure developers know exactly what to build.
+
+Help testers verify that the system works correctly.
+
+Provide a clear “Done” definition for each user story.
+
+Support traceability and quality control.
+
+4. Sample User Stories (Hospital Management System)
+
+Below are 10 user stories written in the correct format, covering various hospital roles:
+
+1. Patient Registration
+
+As a receptionist, I want to register new patients so that their personal information and medical records can be stored in the system.
+
+2. Appointment Scheduling
+
+As a patient, I want to book an appointment online so that I can visit the hospital without waiting in long queues.
+
+3. Doctor Access to Patient History
+
+As a doctor, I want to view a patient’s medical history so that I can diagnose their condition accurately.
+
+4. Recording Vital Signs
+
+As a nurse, I want to record patient vital signs so that doctors can review real-time patient health data.
+
+5. Lab Result Entry
+
+As a laboratory technician, I want to upload lab test results so that doctors can access them immediately.
+
+6. Pharmacy Stock Management
+
+As a pharmacist, I want to track medicine stock levels so that I can prevent shortages and keep inventory up to date.
+
+7. Automated Billing
+
+As a billing clerk, I want the system to generate patient bills automatically so that payments are processed faster and accurately.
+
+8. User Role Management
+
+As a system administrator, I want to assign user roles and access permissions so that only authorized staff can view sensitive medical data.
+
+9. Emergency Patient Registration
+
+As emergency staff, I want to register critical patients quickly with minimal details so that treatment can begin immediately.
+
+10. Access to Discharge Summaries
+
+As a patient, I want to download my discharge summary online so that I can review treatment details and follow medical instructions later.
