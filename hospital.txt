@@ -1,0 +1,260 @@
+Complete Hospital System Example
+1. Overview
+
+In this example, the hospital system manages appointments, patients, doctors, medications, billing, emergency cases, lab reports, and administrative functions.
+
+The product backlog includes user stories that are:
+
+Prioritized
+
+Weighted using story points (based on complexity, priority, and business value)
+
+Supported by acceptance criteria
+
+2. Product Backlog (with Estimated Weights)
+
+Below is a sample backlog for the hospital system. Each story includes:
+
+Story point estimate
+
+Reasoning for weight (complexity + value + priority)
+
+User Story 1 – Patient Registration
+
+As a receptionist, I want to register new patients so that their records can be stored and accessed easily.
+
+Story Points: 5
+(Moderate complexity and high business value)
+
+Acceptance Criteria:
+
+The system must allow entering basic patient details (name, age, gender, contact).
+
+Duplicate registrations must be prevented.
+
+Patient record must be stored and retrievable immediately.
+
+User Story 2 – Online Appointment Booking
+
+As a patient, I want to book an appointment online so that I don’t need to wait at the hospital.
+
+Story Points: 8
+(Higher complexity due to scheduling and conflict management)
+
+Acceptance Criteria:
+
+Patient can view available time slots for their doctor.
+
+Booking must prevent overlapping appointments.
+
+Confirmation message must be sent after booking.
+
+User Story 3 – Doctor Access to Patient Medical History
+
+As a doctor, I want to view the medical history of a patient so that I can make accurate treatment decisions.
+
+Story Points: 8
+(High value and medium complexity)
+
+Acceptance Criteria:
+
+System must display past diagnoses, lab results, prescriptions, and notes.
+
+Only authorized doctors should have access.
+
+History should load within two seconds.
+
+User Story 4 – Recording Patient Vital Signs
+
+As a nurse, I want to record patient vitals so that the doctor can review current health status.
+
+Story Points: 5
+(Moderate complexity)
+
+Acceptance Criteria:
+
+System must allow entering blood pressure, pulse, temperature, and weight.
+
+Data must be time-stamped.
+
+Doctors must be able to view updated vitals immediately.
+
+User Story 5 – Lab Test Entry
+
+As a lab technician, I want to record lab test results so that doctors can access them quickly.
+
+Story Points: 8
+(High value and medium complexity)
+
+Acceptance Criteria:
+
+System must allow selecting patient and test type.
+
+Result must be stored and marked as completed.
+
+Doctor must be notified upon result submission.
+
+User Story 6 – Pharmacy Inventory Tracking
+
+As a pharmacist, I want to track medicine stock levels so that the inventory remains accurate and up-to-date.
+
+Story Points: 10
+(Higher complexity due to stock management and alerts)
+
+Acceptance Criteria:
+
+System must update stock automatically after dispensing medicine.
+
+Alerts must be displayed when stock is below minimum threshold.
+
+Only pharmacy staff can modify inventory.
+
+User Story 7 – Automatic Bill Generation
+
+As a billing officer, I want the system to automatically generate patient bills so that payment processing becomes faster and more accurate.
+
+Story Points: 13
+(Complex because it integrates multiple modules)
+
+Acceptance Criteria:
+
+Charges must include consultation, medicine, lab tests, and room fees.
+
+System must calculate taxes and totals automatically.
+
+Printable bill must be available at discharge.
+
+User Story 8 – Emergency Patient Quick Registration
+
+As emergency staff, I want to register critical patients quickly with minimal information so that treatment can start immediately.
+
+Story Points: 5
+(Simple but high priority)
+
+Acceptance Criteria:
+
+Only name, age, and one emergency contact should be required initially.
+
+Full details can be completed later.
+
+System must assign a temporary emergency record number.
+
+User Story 9 – Role-Based Access Control
+
+As a system administrator, I want to control user access based on roles so that sensitive patient data remains secure.
+
+Story Points: 13
+(Security-oriented and multi-level complexity)
+
+Acceptance Criteria:
+
+Each module must have configurable access rules.
+
+Only system admins can modify user roles.
+
+Audit log must track every access or permission change.
+
+User Story 10 – Online Discharge Summaries
+
+As a patient, I want to download my discharge summary online so that I can review treatment instructions later at home.
+
+Story Points: 8
+(Medium-high complexity)
+
+Acceptance Criteria:
+
+System must generate a structured discharge document.
+
+Patient can download the document from a secure portal.
+
+Only data from the patient’s own record must be visible.
+
+User Story 11 – Notifications and Reminders
+
+As a patient, I want notification reminders for appointments so that I don’t miss scheduled visits.
+
+Story Points: 5
+
+Acceptance Criteria:
+
+Notifications must be sent via email or SMS.
+
+Reminders must be sent at least 24 hours before the visit.
+
+User Story 12 – Doctor Duty Scheduling
+
+As a hospital administrator, I want to manage doctor duty schedules so that operational coverage is maintained.
+
+Story Points: 8
+
+Acceptance Criteria:
+
+Admin must be able to assign shifts.
+
+System must detect schedule conflicts.
+
+Doctors must receive notifications of updated duties.
+
+User Story 13 – Patient Portal Login
+
+As a patient, I want a secure login to access my medical information so that I can manage appointments and records independently.
+
+Story Points: 8
+
+Acceptance Criteria:
+
+Account must be password protected.
+
+Multi-factor authentication must be supported.
+
+Password recovery process must be implemented.
+
+User Story 14 – Insurance Claims Processing
+
+As a billing officer, I want to submit electronic insurance claims so that patients can receive coverage without delay.
+
+Story Points: 13
+
+Acceptance Criteria:
+
+System must generate insurance claim packets.
+
+Claims must include all related charges.
+
+Submission status (approved, pending, rejected) must be trackable.
+
+User Story 15 – Audit and Logging System
+
+As a compliance officer, I want a full log of system activities so that audits and investigations can be conducted.
+
+Story Points: 10
+
+Acceptance Criteria:
+
+All updates, deletions, and access events must be logged.
+
+Logs must show timestamp, user, and action.
+
+Logs must be available for review with proper authorization.
+
+3. How Story Points Were Assigned
+
+Story points reflect:
+
+Functional complexity
+
+Technical effort
+
+Business value
+
+Integration needs
+
+Priority to hospital operations
+
+For example:
+
+Emergency features have high priority even if simpler.
+
+Billing and security systems get higher story points because they affect multiple modules.
+
+Patient-facing features need strong reliability and usability.
